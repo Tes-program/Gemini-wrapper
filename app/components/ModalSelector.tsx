@@ -13,8 +13,8 @@ interface ModelSelectorProps {
 const modelIcons: Record<string, React.ReactNode> = {
   'gemini-1.5-pro': <Brain className="w-4 h-4" />,
   'gemini-1.5-flash': <Zap className="w-4 h-4" />,
-  'gemini-pro': <Sparkles className="w-4 h-4" />,
-  'gemini-pro-vision': <Eye className="w-4 h-4" />,
+  'gemini-2.5-flash': <Sparkles className="w-4 h-4" />,
+  'gemini-2.5-pro': <Eye className="w-4 h-4" />,
 };
 
 export default function ModelSelector({ selectedModel, onSelectModel }: ModelSelectorProps) {
